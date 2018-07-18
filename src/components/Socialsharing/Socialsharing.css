@@ -1,0 +1,13 @@
+.gp,
+.fb,
+.wa {
+  display: inline-block;
+  width: 100px;
+  cursor: pointer;
+}
+
+.fb:focus,
+.gp:focus,
+.wa:focus {
+  outline: 0;
+}
