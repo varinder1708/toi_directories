@@ -1,4 +1,3 @@
-
 .clearfix::after { content: '.'; display: block; font-size:0; height: 0; clear: both; visibility: hidden;}
 .clearfix { display: block; }
 ul, li, h1, h2, h3, h4, h5, h6{margin: 0; padding: 0}
@@ -8,19 +7,21 @@ ul, li{list-style: none;}
 .wrapper-directory .search-wrapper{background: #969696;}
 .wrapper-directory .search-wrapper ul{max-width: 710px; margin: 0 auto; padding: 12px 0;}
 .wrapper-directory .search-wrapper ul li{display: block; position: relative; float: left}
-.wrapper-directory .search-wrapper ul li:first-child{width: 60%; border-right: 1px solid #d9d9d9}
-.wrapper-directory .search-wrapper ul li:nth-child(2){width: 32%;}
-.wrapper-directory .search-wrapper ul li:nth-child(3){width: 8%;}
-.wrapper-directory .search-wrapper ul li input{height: 52px; line-height: 52px; width: 100%; background: #fff; border: 0; padding: 0 10px; font-size: 15px; color: #555}
-.wrapper-directory .search-wrapper ul li input:focus{}
-.wrapper-directory .search-wrapper ul li button{background: #575757; border: 0; width: 55px; height: 52px}
+.wrapper-directory .search-wrapper ul li.searchcontent{width: 60%; border-right: 1px solid #d9d9d9}
+.wrapper-directory .search-wrapper ul li.location{width: 32%;}
+.wrapper-directory .search-wrapper ul li.form_submit{width: 8%;}
+.wrapper-directory .search-wrapper ul li input{height: 52px; line-height: 52px; width: 100%; background: #fff; border: 0; padding: 0 50px 0 10px; font-size: 15px; color: #555; border-radius: 0}
+.wrapper-directory .search-wrapper ul li.location input{padding: 0 10px 0 40px}
+.wrapper-directory .search-wrapper ul li.form_submit button{background: #575757; border: 0; width: 55px; height: 52px; cursor: pointer}
 .wrapper-directory .wrapper{max-width: 1000px; margin: 0 auto;}
 .directory-content{padding: 20px 0;}
 .wrapper-directory h6{background: #fff; text-align: center; padding: 20px 0; font-size: 18px; line-height: 1; font-weight: normal;}
 .wrapper-directory h6 strong{font-weight: bold}
 .lhs-filter{width: 320px; float: left; background: #fff; border: 1px solid #ccc;}
 .lhs-filter h2{background: #d8d8d8; font-weight: 600; color: #4a4a4a; padding: 15px 20px; text-transform: uppercase; font-size: 16px; line-height: 1}
-
+.wrapper-directory .search-wrapper ul li.searchcontent .carrot{background: #fff; width: 10px; height: 10px; border-right: 2px solid #999; border-bottom: 2px solid #999; transform: rotate(45deg); position: absolute; right: 20px; top: 18px;}
+.location .icon{background: url(https://timesofindia.indiatimes.com/photo/65039608.cms) no-repeat -2px -2px; background-size: 170px; width: 15px; height: 22px; left: 15px; top: 16px; position: absolute; z-index: 1;}
+.form_submit .btn::before{background: url(https://timesofindia.indiatimes.com/photo/65039608.cms) no-repeat -62px 0px; background-size: 170px; width: 28px; height: 28px; display: block; content: ""; margin: 0 auto;}
 
 /* Filter */
 
@@ -35,3 +36,5 @@ ul, li{list-style: none;}
 .filter-box ul li label::before{content: ''; width: 20px; height: 20px; border: 1px solid #ccc; border-radius: 2px; background: #fff; position: absolute; left: -24px; cursor: pointer; transition: 0.5s ease}
 .filter-box ul li input[type='checkbox']:checked + label::after{width: 13px; height: 7px; border-bottom: 2px solid #fff; border-left: 2px solid #fff; position: absolute; left: -21px; top: 4px; transform: rotate(-45deg);}
 .filter-box ul li input[type='checkbox']:checked + label::before{background: #d0021b; border: 0;}
+
+

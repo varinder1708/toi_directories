@@ -22,16 +22,15 @@ class Html extends React.Component {
       <div className={`${s['wrapper-directory']} ${s.clearfix}`}>
         <div className={s['search-wrapper']}>
           <ul className={s.clearfix}>
-            <li>
+            <li className={s.searchcontent}>
               <input type="text" />
               <i className={s.carrot} />
             </li>
-            <li>
-              <i className={s.carrot}>
+            <li className={s.location}>
+            <i className={s.icon}></i>
                 <input type="text" />
-              </i>
             </li>
-            <li>
+            <li className={s.form_submit}>
               <button className={s.btn} />
             </li>
           </ul>
