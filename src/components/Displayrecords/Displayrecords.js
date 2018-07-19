@@ -11,17 +11,17 @@ class Displayrecords extends Component {
 
   render() {
     return (
-      <div className={s['rhs-results']}>
-        <ul className={s.list}>
-          {this.props.records.map((item, i) => (
+      // <div className={s['rhs-results']}>
+      //   <ul className={s.list}>
+      //     {this.props.records.map((item, i) => (
             <DisplayRow
               onselectdetail={this.props.onselectdetail}
-              key={i}
-              val={item}
+              // key={i}
+              // val={item}
             />
-          ))}
-        </ul>
-      </div>
+      //     ))}
+      //   </ul>
+      // </div>
     );
   }
 }

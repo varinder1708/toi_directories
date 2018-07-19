@@ -1,4 +1,4 @@
-/* @import '../variables.css';
+ 
 .clearfix::after { content: '.'; display: block; font-size:0; height: 0; clear: both; visibility: hidden;}
 .clearfix { display: block; }
 
@@ -12,4 +12,4 @@
 .rhs-results .result-status{position: absolute; left: 50%; top: 40%; transform: translate(-50%, -40%); font-size: 12px}
 .rhs-results .result-status .open{color: #569a07}
 .rhs-results .result-status .close{color: #d0021b}
-.result-footer{clear: both;} */
+.result-footer{clear: both;} 

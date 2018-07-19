@@ -16,10 +16,12 @@ class Displayrow extends Component {
 
       //  <div>{this.props.val.Category}</div>
       //   </div>
-
+      <div className={s['rhs-results']}>
+      <ul className={s.list}>
       <li className={s.clearfix}>
         <div className={s.column11}>
-          <h4>{this.props.val.title}</h4>
+          {/* <h4>{this.props.val.title}</h4> */}
+          <h4>asd</h4>
           <span className={s.rating}>0 Reviews</span>
           <p>Beauty Parlours, Spa & Saloons</p>
         </div>
@@ -40,6 +42,8 @@ class Displayrow extends Component {
           <div className={s.direction}>Directions</div>
         </div>
       </li>
+      </ul>
+      </div>
     );
   }
 }

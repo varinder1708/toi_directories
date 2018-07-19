@@ -12,6 +12,7 @@ import Displayproperty from '../../components/Displayproperty/Displayproperty';
 import Socialsharing from '../../components/Socialsharing/Socialsharing';
 import Searchwrapper from '../../components/Searchwrapper/Searchwrapper';
 
+
 class Search extends Component {
   constructor(props) {
     super(props);
@@ -158,7 +159,7 @@ class Search extends Component {
                   val={this.state.location}
                   onselectvalue={this.setLocation}
                 />
-                <i className={s.carrot} />
+                <i className={s.carrot} ></i>
               </li>
               <li>
                 <i className={s.carrot}>
